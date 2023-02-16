@@ -1,5 +1,6 @@
 ### generate-mod-list.bat
-该脚本通过CurseForge API获取指定的mod信息，包括mod名称、版本号、下载地址，并将这些信息组成json格式的mod统计列表文件。文件名为mod-list.json，并存储在指定的本地文件夹（在此脚本中为./temp）中。
+该脚本通过CurseForge API获取指定的mod信息，包括mod名称、版本号、下载地址，并将这些信息组成json格式的mod统计列表文件。
+文件名为mod-list.json，并存储在指定的本地文件夹（在此脚本中为./temp）中。
 具体步骤如下：
     设置mod ID列表以及CurseForge API URL
     遍历mod ID列表，发送HTTP请求获取mod信息，提取名称、版本号、下载地址等信息，存入一个对象数组中
