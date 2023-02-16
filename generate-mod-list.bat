@@ -1,4 +1,5 @@
 @echo off
+chcp 65001
 REM 设置mod ID列表
 set MOD_ID_LIST=1 2 3 4
 REM 设置CurseForge API URL
@@ -47,4 +48,4 @@ git add ./temp/mod-list.json
 git commit -m "更新mod列表到 %COMMIT_TIME%"
 git push
 
-echo mod-list.json已生成，且已上传到github仓库。
+echo mod-list.json已生成,且已上传到github仓库。
