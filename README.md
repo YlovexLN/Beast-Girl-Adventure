@@ -1,6 +1,4 @@
-# <center> Mod-UpdateScript
-
-目前还在写，不知道什么时候能写好。我知道你很急，但你先别急。
+# <center>Mod-UpdateScript<center>
 
 ### generate-mod-list.bat
 
@@ -24,4 +22,5 @@
 
 ---
 
-代码中使用中文注释和 echo 语句，以提高代码可读性和可维护性。同时，由于 bat 脚本本身是 Windows 系统自带的脚本语言，因此使用 PowerShell 的 Invoke-WebRequest 进行下载操作，以保证兼容性。
+这只是一个测试
+目前还在写，不知道什么时候能写好。我知道你很急，但你先别急。
