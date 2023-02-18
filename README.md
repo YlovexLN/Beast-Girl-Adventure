@@ -1,4 +1,4 @@
-# <center>Mod-UpdateScript<center>
+# <center> Mod-UpdateScript
 
 ### generate-mod-list.bat
 
