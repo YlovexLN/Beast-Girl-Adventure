@@ -1,0 +1,46 @@
+{
+    "urls": {
+        "curseforge": "https://www.curseforge.com/minecraft/mc-mods/kemonocraft",
+        "project": "https://www.curseforge.com/minecraft/mc-mods/kemonocraft"
+    },
+    "files": [
+        {
+            "id": 4395841,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/kemonocraft/files/4395841",
+            "display": "0.4.11",
+            "name": "KemonoCraft-1.16.5-0.4.11.jar",
+            "type": "release",
+            "version": "Client",
+            "filesize": 2760499,
+            "versions": [
+                "Client",
+                "1.16.5",
+                "Forge",
+                "Server"
+            ],
+            "downloads": 0,
+            "uploaded_at": "2023-02-14T15:25:10.84Z"
+        },
+        {
+            "id": 4395840,
+            "url": "https://www.curseforge.com/minecraft/mc-mods/kemonocraft/files/4395840",
+            "display": "0.4.11",
+            "name": "KemonoCraft-1.12.2-0.4.11.jar",
+            "type": "release",
+            "version": "Client",
+            "filesize": 2740093,
+            "versions": [
+                "Client",
+                "Forge",
+                "Server",
+                "1.12.2"
+            ],
+            "downloads": 0,
+            "uploaded_at": "2023-02-14T15:24:34.4Z"
+        }
+    ],
+    "downloads": {
+        "monthly": 0,
+        "total": 52338
+    }
+}
