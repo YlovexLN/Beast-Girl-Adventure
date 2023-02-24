@@ -1,46 +1,40 @@
 {
     "urls": {
-        "curseforge": "https://www.curseforge.com/minecraft/mc-mods/kemonocraft",
-        "project": "https://www.curseforge.com/minecraft/mc-mods/kemonocraft"
+        "curseforge": "https://www.curseforge.com/minecraft/mc-mods/inventory-hud-forge",
+        "project": "https://www.curseforge.com/minecraft/mc-mods/inventory-hud-forge"
     },
-    "files": [
-        {
-            "id": 4395841,
-            "url": "https://www.curseforge.com/minecraft/mc-mods/kemonocraft/files/4395841",
-            "display": "0.4.11",
-            "name": "KemonoCraft-1.16.5-0.4.11.jar",
-            "type": "release",
-            "version": "Client",
-            "filesize": 2760499,
-            "versions": [
-                "Client",
-                "1.16.5",
-                "Forge",
-                "Server"
-            ],
-            "downloads": 0,
-            "uploaded_at": "2023-02-14T15:25:10.84Z"
-        },
-        {
-            "id": 4395840,
-            "url": "https://www.curseforge.com/minecraft/mc-mods/kemonocraft/files/4395840",
-            "display": "0.4.11",
-            "name": "KemonoCraft-1.12.2-0.4.11.jar",
-            "type": "release",
-            "version": "Client",
-            "filesize": 2740093,
-            "versions": [
-                "Client",
-                "Forge",
-                "Server",
-                "1.12.2"
-            ],
-            "downloads": 0,
-            "uploaded_at": "2023-02-14T15:24:34.4Z"
-        }
-    ],
+    "files": {
+        "id": 4153724,
+        "url": "https://www.curseforge.com/minecraft/mc-mods/inventory-hud-forge/files/4153724",
+        "display": "[Forge][1.19.2-3]InventoryHud(v3.4.7)",
+        "name": "invhud.forge.1.19-3.4.7.jar",
+        "type": "release",
+        "version": "1.19.3",
+        "filesize": 210503,
+        "versions": [
+            "1.19.3",
+            "Client",
+            "1.19.2",
+            "Forge"
+        ],
+        "downloads": 342758,
+        "uploaded_at": "2022-12-09T13:49:58.713Z"
+    },
     "downloads": {
-        "monthly": 0,
-        "total": 52338
+        "id": 3545928,
+        "url": "https://www.curseforge.com/minecraft/mc-mods/inventory-hud-forge/files/3545928",
+        "display": "[Fabric.1.18.x] InventoryHUD+ (v3.4.2)",
+        "name": "InventoryHUD-fabric-[1.18] -3.4.2.jar",
+        "type": "beta",
+        "version": "1.18.1",
+        "filesize": 223282,
+        "versions": [
+            "1.18.1",
+            "Fabric",
+            "1.18.2",
+            "1.18"
+        ],
+        "downloads": 1133010,
+        "uploaded_at": "2021-12-02T23:50:07.64Z"
     }
 }
