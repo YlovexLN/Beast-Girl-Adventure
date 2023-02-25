@@ -95,5 +95,25 @@
         "name": "Create",
         "links": "https://www.curseforge.com/minecraft/mc-mods/create",
         "latestFiles": []
+    },
+    {
+        "id": 228756,
+        "gameId": 432,
+        "name": "Iron Chests",
+        "links": "https://www.curseforge.com/minecraft/mc-mods/iron-chests",
+        "latestFiles": [
+            {
+                "id": 3543538,
+                "modid": 228756,
+                "displayName": "ironchest-1.16.5-11.2.21.jar",
+                "fileName": "ironchest-1.16.5-11.2.21.jar",
+                "fileDate": "2021-12-01T12:24:32.253Z",
+                "downloadUrl": "https://edge.forgecdn.net/files/3543/538/ironchest-1.16.5-11.2.21.jar",
+                "gameVersions": [
+                    "1.16.5",
+                    "Forge"
+                ]
+            }
+        ]
     }
 ]
