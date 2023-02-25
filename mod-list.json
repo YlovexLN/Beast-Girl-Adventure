@@ -88,5 +88,12 @@
                 ]
             }
         ]
+    },
+    {
+        "id": 328085,
+        "gameId": 432,
+        "name": "Create",
+        "links": "https://www.curseforge.com/minecraft/mc-mods/create",
+        "latestFiles": []
     }
 ]

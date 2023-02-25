@@ -1,6 +1,7 @@
 import requests
 import json
 
+# API KEY
 API_KEY = '$2a$10$54xio0nrZbsEiNfBLzq35.9NBvWrapx6UecXBQLnH9sHYuIiHGwJu'
 
 headers = {
@@ -9,13 +10,20 @@ headers = {
     'x-api-key': API_KEY
 }
 
+# 导入mod-ids.json文件
 with open('mod-ids.json', 'r') as f:
     mod_ids = json.load(f)
+
+# 游戏版本
+Version = "1.16.5"
+
+# mod核心
+modLoader = "Forge"
 
 all_mod_info = []  # 存储所有 mod 的信息
 
 for mod_id in mod_ids:
-
+    # https://api.curseforge.com/ API接口
     url = f'https://api.curseforge.com/v1/mods/{mod_id}'
 
     response = requests.get(url, headers=headers)
@@ -58,7 +66,7 @@ for mod_id in mod_ids:
         # 筛选最新文件的 gameVersions 中有 1.16.5 和 Forge 的版本
         filtered_latest_files = []
         for latest_file in mod_latest_files_info:
-            if '1.16.5' in latest_file['gameVersions'] and 'Forge' in latest_file['gameVersions']:
+            if Version in latest_file['gameVersions'] and modLoader in latest_file['gameVersions']:
                 game_versions = latest_file['gameVersions']
                 if isinstance(game_versions, list):
                     game_versions = ''.join(game_versions)
