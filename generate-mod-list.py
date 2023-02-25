@@ -1,33 +1,54 @@
 import requests
 import json
 
-# 定义 mod ID
-mod_id = "357540"
+headers = {
+    'Accept': 'application/json',
+    'x-api-key': '$2a$10$54xio0nrZbsEiNfBLzq35.9NBvWrapx6UecXBQLnH9sHYuIiHGwJu'
+}
 
-mod_loader = "fabric"
+mod_id = "301339"  # 替换为您要获取的mod的ID
 
-game_version = "1.18.2"
-# 定义 cfwidget URL
-url = f'https://api.cfwidget.com/{mod_id}?loader={mod_loader}&version={game_version}'
+url = f'https://api.curseforge.com/v1/mods/{mod_id}'
 
-# 发送 GET 请求并获取响应
-response = requests.get(url)
+response = requests.get(url, headers=headers)
 
 if response.status_code == 200:
     # 将响应内容解析为 JSON 对象
     response_json = response.json()
-    # 获取 mod 的各种信息
-    mod_urls = response_json['urls']
-    mod_files = response_json['files'][0]
-    mod_download = response_json['download']
-    # 将 mod 的信息存储到一个 Python 字典中
+
+    # 获取 data 里的信息
+    mod_data = response_json['data']
+    mod_id = mod_data['id']
+    game_id = mod_data['gameId']
+    mod_name = mod_data['name']
+    mod_links_websiteUrl = mod_data['links']['websiteUrl']
+    mod_latest_files = mod_data['latestFiles']
+
+    # 提取 latestFiles 里的信息
+    mod_latest_files_info = []
+    for file in mod_latest_files:
+        file_info = {
+            'id': file['id'],
+            'modid': file['modId'],
+            'displayName': file['displayName'],
+            'fileName': file['fileName'],
+            'fileDate': file['fileDate'],
+            'downloadUrl': file['downloadUrl'],
+            'gameVersions': file['gameVersions']
+
+        }
+        mod_latest_files_info.append(file_info)
+
+    # 将需要的信息存储到一个 Python 字典中
     mod_info = {
-        'urls': mod_urls,
-        'files': mod_files,
-        'downloads': mod_download
+        'id': mod_id,
+        'gameId': game_id,
+        'name': mod_name,
+        'links': mod_links_websiteUrl,
+        'latestFiles': mod_latest_files_info
     }
-    # 将 mod 信息写入 JSON 文件
+
     with open('mod-list.json', 'w') as f:
         json.dump(mod_info, f)
 else:
-    print('请求失败：', response.status_code)
+    print(f"获取 mod {mod_id} 信息失败：{response.status_code}")
