@@ -1,8 +1,13 @@
+import configparser
 import requests
 import json
 
+# Config.ini
+config = configparser.ConfigParser()
+config.read('config.ini')
+
 # API KEY
-API_KEY = '$2a$10$54xio0nrZbsEiNfBLzq35.9NBvWrapx6UecXBQLnH9sHYuIiHGwJu'
+API_KEY = config.get('API', 'API_KEY')
 
 headers = {
     'Content-Type': 'application/json',
@@ -10,15 +15,13 @@ headers = {
     'x-api-key': API_KEY
 }
 
-# 导入mod-ids.json文件
-with open('mod-ids.json', 'r') as f:
-    mod_ids = json.load(f)
+mod_ids = config.get('Mod_id', 'Mod_ids').split(',')
 
 # 游戏版本
-Version = "1.16.5"
+Version = config.get('Game', 'Version')
 
-# mod核心
-modLoader = "Forge"
+# Mod核心
+ModLoader = config.get('Game', 'ModLoader')
 
 all_mod_info = []  # 存储所有 mod 的信息
 
@@ -66,7 +69,7 @@ for mod_id in mod_ids:
         # 筛选最新文件的 gameVersions 中有 1.16.5 和 Forge 的版本
         filtered_latest_files = []
         for latest_file in mod_latest_files_info:
-            if Version in latest_file['gameVersions'] and modLoader in latest_file['gameVersions']:
+            if Version in latest_file['gameVersions'] and ModLoader in latest_file['gameVersions']:
                 game_versions = latest_file['gameVersions']
                 if isinstance(game_versions, list):
                     game_versions = ''.join(game_versions)
