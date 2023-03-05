@@ -19,6 +19,10 @@
 这只是一个测试
 目前还在写，不知道什么时候能写好。我知道你很急，但你先别急。
 
+## 开始使用
+
+<font size=5>使用前请先把[Default.config.ini](/Default.config.ini)修改成config.ini并填好你的API Key</font>
+
 #### 已知问题：
 
 **[机械动力]** Create
@@ -67,7 +71,3 @@
 我这里已经是筛选掉没有用的信息之后的结果，如果你需要这两个版本之外的版本
 
 请自行去[CurseForge](https://www.curseforge.com/minecraft/mc-mods/create)下载  （👈点击超链接直接跳转至Mod页面）
-
-## 开始使用
-
-使用前请先把[Default.config.ini](/Default.config.ini)修改成config.ini并填好你的API Key
