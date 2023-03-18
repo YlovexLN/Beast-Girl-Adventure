@@ -4,7 +4,7 @@ import json
 
 # Config.ini
 config = configparser.ConfigParser()
-config.read('config.ini')
+config.read('config.ini', encoding='utf-8')
 
 # API KEY
 API_KEY = config.get('API', 'API_KEY')

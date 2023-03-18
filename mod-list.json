@@ -28,12 +28,12 @@
         "links": "https://www.curseforge.com/minecraft/mc-mods/i18nupdatemod",
         "latestFiles": [
             {
-                "id": 4379643,
+                "id": 4437109,
                 "modid": 297404,
-                "displayName": "I18nUpdateMod 3.4.1",
-                "fileName": "I18nUpdateMod-3.4.1-all.jar",
-                "fileDate": "2023-02-04T11:47:06.677Z",
-                "downloadUrl": "https://edge.forgecdn.net/files/4379/643/I18nUpdateMod-3.4.1-all.jar",
+                "displayName": "I18nUpdateMod 3.4.2",
+                "fileName": "I18nUpdateMod-3.4.2-all.jar",
+                "fileDate": "2023-03-14T17:08:31.563Z",
+                "downloadUrl": "https://edge.forgecdn.net/files/4437/109/I18nUpdateMod-3.4.2-all.jar",
                 "gameVersions": [
                     "1.16-Snapshot",
                     "1.17.1",
@@ -53,6 +53,7 @@
                     "Fabric",
                     "1.15",
                     "1.16",
+                    "1.19.4",
                     "1.8.8",
                     "1.19-Snapshot",
                     "1.7.2",
