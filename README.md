@@ -1,6 +1,6 @@
 <h1 align="center">Mod-UpdateScript</h1>
-
-### Generate-mod-list.bat
+### 说明
+#### Generate-mod-list.bat
 
 通过 CurseForge API 获取指定的 mod 信息，包括 mod 名称、版本号、下载地址，
 
@@ -8,7 +8,7 @@
 
 最后再将 mod-list 上传到 GitHub 方便于本地的 mod-list 对比。
 
-### Update-mods.bat
+#### Update-mods.bat
 
 检测远程仓库的 mod-list 与本地 mod-list 是否不一样
 
@@ -19,9 +19,11 @@
 这只是一个测试
 目前还在写，不知道什么时候能写好。我知道你很急，但你先别急。
 
-## 开始使用
+### 开始使用
 
 <font size=5>使用前请先把[Default.config.ini](/Default.config.ini)修改成config.ini并填好你的API Key</font>
+
+---
 
 #### 已知问题：
 
@@ -35,7 +37,7 @@
 
 如下：
 
-```json
+```mod-list.json
 "id": 328085,
         "gameId": 432,
         "name": "Create",
