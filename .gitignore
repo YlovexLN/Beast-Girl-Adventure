@@ -1,2 +1,3 @@
 # file 不需要提交的文件
 config.ini
+modules\__pycache__

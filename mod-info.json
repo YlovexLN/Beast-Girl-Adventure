@@ -1,0 +1,238 @@
+[
+    {
+        "id": 301339,
+        "gameId": 432,
+        "name": "KemonoCraft",
+        "links": "https://www.curseforge.com/minecraft/mc-mods/kemonocraft",
+        "latestFiles": [
+            {
+                "id": 4449442,
+                "modid": 301339,
+                "displayName": "0.4.12",
+                "fileName": "KemonoCraft-1.16.5-0.4.12.jar",
+                "fileDate": "2023-03-21T15:28:11.943Z",
+                "downloadUrl": "https://edge.forgecdn.net/files/4449/442/KemonoCraft-1.16.5-0.4.12.jar",
+                "gameVersions": [
+                    "Client",
+                    "1.16.5",
+                    "Forge",
+                    "Server"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 297404,
+        "gameId": 432,
+        "name": "I18nUpdateMod",
+        "links": "https://www.curseforge.com/minecraft/mc-mods/i18nupdatemod",
+        "latestFiles": [
+            {
+                "id": 2669338,
+                "modid": 297404,
+                "displayName": "i18nupdatemod-1.12.2-1.0.8",
+                "fileName": "i18nupdatemod-1.12.2-1.0.8.jar",
+                "fileDate": "2019-02-05T06:05:03.43Z",
+                "downloadUrl": "https://edge.forgecdn.net/files/2669/338/i18nupdatemod-1.12.2-1.0.8.jar",
+                "gameVersions": [
+                    "1.12.2"
+                ]
+            },
+            {
+                "id": 3663036,
+                "modid": 297404,
+                "displayName": "i18nupdatemod-1.18-3.0.0.jar",
+                "fileName": "i18nupdatemod-1.18-3.0.0.jar",
+                "fileDate": "2022-02-26T13:06:08.967Z",
+                "downloadUrl": "https://edge.forgecdn.net/files/3663/36/i18nupdatemod-1.18-3.0.0.jar",
+                "gameVersions": [
+                    "1.18.1",
+                    "Forge"
+                ]
+            },
+            {
+                "id": 3846173,
+                "modid": 297404,
+                "displayName": "i18nupdatemod-1.18-3.0.2.jar",
+                "fileName": "i18nupdatemod-1.18-3.0.2.jar",
+                "fileDate": "2022-06-24T10:08:03.547Z",
+                "downloadUrl": "https://edge.forgecdn.net/files/3846/173/i18nupdatemod-1.18-3.0.2.jar",
+                "gameVersions": [
+                    "1.18.2",
+                    "Forge"
+                ]
+            },
+            {
+                "id": 4437109,
+                "modid": 297404,
+                "displayName": "I18nUpdateMod 3.4.2",
+                "fileName": "I18nUpdateMod-3.4.2-all.jar",
+                "fileDate": "2023-03-14T17:08:31.563Z",
+                "downloadUrl": "https://edge.forgecdn.net/files/4437/109/I18nUpdateMod-3.4.2-all.jar",
+                "gameVersions": [
+                    "1.16-Snapshot",
+                    "1.17.1",
+                    "1.16.3",
+                    "1.19.3",
+                    "1.15-Snapshot",
+                    "1.6.1",
+                    "1.16.1",
+                    "1.18.1",
+                    "1.9.4",
+                    "1.14.4",
+                    "1.14.1",
+                    "1.12.1",
+                    "1.17",
+                    "1.12",
+                    "1.14.3",
+                    "Fabric",
+                    "1.15",
+                    "1.16",
+                    "1.19.4",
+                    "1.8.8",
+                    "1.19-Snapshot",
+                    "1.7.2",
+                    "1.16.5",
+                    "1.10.2",
+                    "1.11",
+                    "1.18.2",
+                    "1.19.2",
+                    "1.15.2",
+                    "Forge",
+                    "1.14",
+                    "1.10",
+                    "1.19.1",
+                    "1.6.4",
+                    "1.7.10",
+                    "1.8",
+                    "1.17-Snapshot",
+                    "1.18",
+                    "1.16.4",
+                    "1.14.2",
+                    "1.18-Snapshot",
+                    "1.16.2",
+                    "1.11.2",
+                    "1.9",
+                    "1.12.2",
+                    "Quilt",
+                    "1.19",
+                    "1.8.9",
+                    "1.14-Snapshot",
+                    "1.13.2",
+                    "1.15.1",
+                    "1.6.2"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 328085,
+        "gameId": 432,
+        "name": "Create",
+        "links": "https://www.curseforge.com/minecraft/mc-mods/create",
+        "latestFiles": [
+            {
+                "id": 2952509,
+                "modid": 328085,
+                "displayName": "Create 1.14.4 v0.2.3",
+                "fileName": "create-mc1.14.4_v0.2.3.jar",
+                "fileDate": "2020-05-09T17:25:03.4Z",
+                "downloadUrl": "https://edge.forgecdn.net/files/2952/509/create-mc1.14.4_v0.2.3.jar",
+                "gameVersions": [
+                    "1.14.4",
+                    "Forge"
+                ]
+            },
+            {
+                "id": 4371809,
+                "modid": 328085,
+                "displayName": "Create 1.19.2 v0.5.0i",
+                "fileName": "create-1.19.2-0.5.0.i.jar",
+                "fileDate": "2023-01-29T23:43:02.557Z",
+                "downloadUrl": "https://edge.forgecdn.net/files/4371/809/create-1.19.2-0.5.0.i.jar",
+                "gameVersions": [
+                    "1.19.2",
+                    "Forge"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 228756,
+        "gameId": 432,
+        "name": "Iron Chests",
+        "links": "https://www.curseforge.com/minecraft/mc-mods/iron-chests",
+        "latestFiles": [
+            {
+                "id": 2746970,
+                "modid": 228756,
+                "displayName": "ironchest-1.14.3-9.0.DEV.55a7af2.jar",
+                "fileName": "ironchest-1.14.3-9.0.DEV.55a7af2.jar",
+                "fileDate": "2019-07-23T16:32:53.543Z",
+                "downloadUrl": "https://edge.forgecdn.net/files/2746/970/ironchest-1.14.3-9.0.DEV.55a7af2.jar",
+                "gameVersions": [
+                    "1.14.4",
+                    "1.14.3"
+                ]
+            },
+            {
+                "id": 2765695,
+                "modid": 228756,
+                "displayName": "ironchest-1.14.4-9.0.4.jar",
+                "fileName": "ironchest-1.14.4-9.0.4.jar",
+                "fileDate": "2019-08-19T21:10:28.607Z",
+                "downloadUrl": "https://edge.forgecdn.net/files/2765/695/ironchest-1.14.4-9.0.4.jar",
+                "gameVersions": [
+                    "1.14.4"
+                ]
+            },
+            {
+                "id": 3043892,
+                "modid": 228756,
+                "displayName": "ironchest-1.16.2-11.1.5.jar",
+                "fileName": "ironchest-1.16.2-11.1.5.jar",
+                "fileDate": "2020-08-28T01:42:46.81Z",
+                "downloadUrl": "https://edge.forgecdn.net/files/3043/892/ironchest-1.16.2-11.1.5.jar",
+                "gameVersions": [
+                    "1.16.2"
+                ]
+            },
+            {
+                "id": 3543538,
+                "modid": 228756,
+                "displayName": "ironchest-1.16.5-11.2.21.jar",
+                "fileName": "ironchest-1.16.5-11.2.21.jar",
+                "fileDate": "2021-12-01T12:24:32.253Z",
+                "downloadUrl": "https://edge.forgecdn.net/files/3543/538/ironchest-1.16.5-11.2.21.jar",
+                "gameVersions": [
+                    "1.16.5",
+                    "Forge"
+                ]
+            },
+            {
+                "id": 3966367,
+                "modid": 228756,
+                "displayName": "ironchest-1.18.2-13.2.11.jar",
+                "fileName": "ironchest-1.18.2-13.2.11.jar",
+                "fileDate": "2022-09-04T02:54:39.173Z",
+                "downloadUrl": "https://edge.forgecdn.net/files/3966/367/ironchest-1.18.2-13.2.11.jar",
+                "gameVersions": [
+                    "1.18.2",
+                    "Forge"
+                ]
+            },
+            {
+                "id": 4337231,
+                "modid": 228756,
+                "displayName": "ironchest-1.19.3-14.3.2.jar",
+                "fileName": "ironchest-1.19.3-14.3.2.jar",
+                "fileDate": "2023-01-15T02:14:57.43Z",
+                "downloadUrl": "https://edge.forgecdn.net/files/4337/231/ironchest-1.19.3-14.3.2.jar",
+                "gameVersions": [
+                    "1.19.3",
+                    "Forge"
+                ]
+            }
+        ]
+    }
+]
